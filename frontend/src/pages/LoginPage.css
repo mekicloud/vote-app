@@ -1,0 +1,53 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9fafb;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-card h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .subtext {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 24px;
+  }
+  
+  .select-input {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
